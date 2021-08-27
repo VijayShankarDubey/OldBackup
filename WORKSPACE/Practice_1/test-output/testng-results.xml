@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75" started-at="2021-06-16T06:40:19 IST" finished-at="2021-06-16T06:40:19 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75" started-at="2021-06-16T06:40:19 IST" finished-at="2021-06-16T06:40:19 IST">
+      <class name="Chapter_17">
+        <test-method status="PASS" signature="streamCollect()[pri:0, instance:Chapter_17@13c27452]" name="streamCollect" duration-ms="17" started-at="2021-06-16T06:40:19 IST" finished-at="2021-06-16T06:40:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamCollect -->
+      </class> <!-- Chapter_17 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

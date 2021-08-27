@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/jquery-3.5.1.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/selenium-java-4.0.0-beta-3.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/testng-7.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/TestNG/testng-7.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/selenium 4.0/selenium-dotnet-strongnamed-4.0.0-alpha05 (1).zip"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/selenium 4.0/selenium-html-runner-4.0.0-alpha-5 (1).jar"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/selenium 4.0/selenium-html-runner-4.0.0-alpha-5.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/selenium 4.0/selenium-java-4.0.0-alpha-5 (1).zip"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/selenium 4.0/selenium-server-4.0.0-alpha-5 (1).zip"/>
+	<classpathentry kind="lib" path="D:/JAVA/WORKSPACE/selenium 4.0/selenium-server-4.0.0-alpha-5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

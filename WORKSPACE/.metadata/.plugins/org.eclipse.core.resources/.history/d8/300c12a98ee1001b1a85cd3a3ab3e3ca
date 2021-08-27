@@ -1,0 +1,27 @@
+
+public class Chapter_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boolean isPresent = false;
+		
+		if(isPresent==true) {
+			System.out.println("Not Present");
+		}else  {
+			System.out.println("Present");
+		}
+		
+//		Ternary Operator
+		boolean isCar = true;
+//		isCar = true;
+		boolean wasCar = isCar ? true : false;
+		
+		if(wasCar) {
+		System.out.println("wasCar is true");
+			}
+	}
+
+	}
+
+

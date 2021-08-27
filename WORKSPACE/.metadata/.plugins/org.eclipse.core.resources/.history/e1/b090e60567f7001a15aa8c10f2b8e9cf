@@ -1,0 +1,32 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class dropDown {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver","D:\\JAVA\\WORKSPACE\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.spicejet.com/");
+		System.out.println(driver.getCurrentUrl());
+		driver.findElement(By.xpath("//*[@id=\'ctl00_mainContent_DropDownListCurrency\']")).click();
+//		Thread.sleep(5000L);
+//		driver.findElement(By.id("ctl00_mainContent_ddl_Adult")).click();
+		
+//		for(int i=1; i<5; i++) {
+//		Select s = new Select(driver.findElement(By.xpath("")));
+//		s1.selectByIndex(2);
+//		s.selectByVisibleText("");
+//		}
+		
+//		driver.findElement(By.id("divpaxinfo")).click();
+//		s.selectByValue("3");
+//		s1.selectByIndex(2);
+//		s.selectByVisibleText("AED");
+	}
+
+}

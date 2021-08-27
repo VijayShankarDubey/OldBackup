@@ -1,0 +1,21 @@
+1.Select syntax:
+		WebElement adult = driver.findElement(By.xpath("//*[@id='ctl00_mainContent_ddl_Adult']"));
+		Select adultdropdown = new Select(adult);
+		adultdropdown.selectByVisibleText("3");
+
+2.Handling auto seggestive dropdown:
+		driver.findElement(By.id("autosuggest")).sendKeys("Ind");
+		Thread.sleep(3000);
+		
+		// Handling select list of element through web element
+		List<WebElement> options = driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
+		
+		for(WebElement option : options)
+		{
+			if(option.getText().equalsIgnoreCase("India"))
+			{
+				option.click();
+				break;
+			}
+			
+3.

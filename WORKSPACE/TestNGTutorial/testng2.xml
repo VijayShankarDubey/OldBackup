@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demo Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="test.Chapter_1">
+				<methods>
+					<include name="demo2"></include>
+				</methods>
+					
+					</class>
+					</classes>
+					</test>
+					
+					<test name="qwe">
+					<groups>
+	<run>
+	<include name="Smoke"/>
+	</run>
+	</groups>
+	<classes>
+			
+			<class name="test.Chapter_2" />
+			<class name="test.Chapter_4"/>
+		</classes>
+	</test>
+	<!-- Test -->
+
+	<test name="Demo Suite2">
+		<classes>
+			<class name="test.Chapter_3">
+				<methods>
+					<exclude name="demo4"></exclude>
+					<!-- <exclude name="demo.*"></exclude>-->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
